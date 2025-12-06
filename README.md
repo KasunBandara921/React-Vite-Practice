@@ -24,3 +24,6 @@ props
 props.childern
 npm run build
 npm run preview
+react router dom
+usestate (reactHook)
+conditional rendering
