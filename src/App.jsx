@@ -1,28 +1,23 @@
 import {  useState } from 'react';
 import './App.css';
+import Loggedin from './Components/Loggedin.jsx';
+import Loggedout from './Components/Loggedout.jsx';
 
   
 
 function  App() {
 
-  const [count, setCount] = useState(0);
-  function increment() {
-    setCount(count + 1);
-  }
+  const loggedin = true;
+  const names = ['Alice', 'Bob'];
+
+  
  
  
 
   return (
     <>
-      <div id="wrapper">
-         
-         <p>{count}</p>
-        <button  onClick={increment}> Click Me </button>
-        
-       
-       
-      </div>
-
+          {loggedin && <Loggedin />}
+          {!loggedin && <Loggedout />}
     </>
   )
 }
