@@ -8,7 +8,7 @@ import Loggedout from './Components/Loggedout.jsx';
 function  App() {
 
   const loggedin = true;
-  const names = ['Alice', 'Bob'];
+  
 
   
  
@@ -16,8 +16,8 @@ function  App() {
 
   return (
     <>
-          {loggedin && <Loggedin />}
-          {!loggedin && <Loggedout />}
+          
+          {loggedin === true ? <Loggedin /> : <Loggedout />}
     </>
   )
 }
