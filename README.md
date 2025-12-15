@@ -27,3 +27,10 @@ npm run preview
 react router dom
 usestate (reactHook)
 conditional rendering
+Rest and spread
+useref
+using map display as a list in information on API
+useeffect
+prop drilling
+project name =./
+npm run build = dist folder is created automatically (dist = distribution kisiyam kenekt denwnm)

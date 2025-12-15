@@ -1,23 +1,21 @@
-import {  useState } from 'react';
+import React,{  useState } from 'react';
 import './App.css';
-import Loggedin from './Components/Loggedin.jsx';
-import Loggedout from './Components/Loggedout.jsx';
+import Comp1 from './Components/Comp1';
+
+
 
   
 
 function  App() {
-
-  const loggedin = true;
+   
   
 
-  
- 
- 
 
   return (
     <>
-          
-          {loggedin === true ? <Loggedin /> : <Loggedout />}
+     
+     <Comp1/>
+    
     </>
   )
 }
